@@ -1,0 +1,6 @@
+{
+  "formulas": {
+    "altman_z_public": "correct_finance.py:altman_z",
+    "capm_expected_return": "correct_finance.py:capm"
+  }
+}
