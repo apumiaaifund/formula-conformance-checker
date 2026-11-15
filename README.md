@@ -1,26 +1,40 @@
-![PROVEN](https://img.shields.io/badge/PROVEN-12%20passed-brightgreen)
-
-
 <p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
 
-<p align="center">
-  <img src="docs/logo.png" alt="formula-conformance-checker-demo" width="200"/>
-</p>
+![PROVEN](https://img.shields.io/badge/PROVEN-12%20passed-brightgreen)
 
-<h1 align="center">formula-conformance-checker-demo</h1>
+# Formula Conformance Checker
 
-<p align="center">
-  <b>Public demo / archive: APUM AI Fund — воспроизводимая финансовая аналитика</b><br/>
-  APUM AI Fund — воспроизводимая финансовая аналитика
-</p>
+**57 формул, 76 векторов, 25 инвариантов. SARIF 2.1.0. Model risk management.**
 
-## О продукте
-Архивный демо-проект APUM AI Fund. См. основные флагманские продукты в профиле организации.
+---
 
-## Выгоды
-Изучение истории разработки и эволюции архитектуры APUMIA.
+## За 30 секунд
 
+**Что это:** FCC — 57 формул, 76 векторов, 25 инвариантов. SARIF 2.1.0. Manifest conformance.json.
 
-## Связанные продукты
-Этот репозиторий является частью экосистемы [APUM AI Fund](https://github.com/apumiaaifund).
-Флагманский продукт: [apumia_credit](https://github.com/apumiaaifund/apumia_credit) (PROVEN 8/8).
+**Кому:** Банки, страховые — SR 11-7 / SOX / model risk.
+
+**Почему сейчас:** Model risk management требует проверки формул. FCC проверяет формулы против QuantLib — 19/19 совпали.
+
+**Что доказано:** 12 passed. QuantLib 1.44: 19/19 совпали. apumia prove → PROVEN.
+
+**Чего не доказано (честно):** CI на GitHub не запускался. QuantLib покрытие 19/25 (6 не дописаны — честно).
+
+---
+
+## Оффер
+
+Интеграция 300–500K ₽.
+
+**Следующий шаг:** Покажу QuantLib 19/19 вживую — 20 минут.
+
+---
+
+## GitHub
+
+- **Private code:** apumiaaifund/formula-conformance-checker
+- **Public demo:** apumiaaifund/formula-conformance-checker-demo
+
+## License
+
+MIT
